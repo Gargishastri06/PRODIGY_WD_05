@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+    <div id="navbar"><h2> ⛅Skycast</h2></div>
+    </header>
+    <div id="main_container">
+        <div id="intro">
+            <h1>Hello from SkyCast</h1>
+            <h3>Live update & clean forecast-just type your city and go</h3>
+        </div>
+        <input type="text" placeholder=" Enter the name of the city" id="city">
+        <button id="search_btn" onclick="getWeather()">Search</button>
+        <div id="main">
+            <div id="temp"></div>
+            <div id="humidity"></div>
+            <div id="wind_speed"></div>
+            <div id="forecast"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
